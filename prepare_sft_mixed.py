@@ -55,8 +55,8 @@ if __name__ == "__main__":
     )
 
     INPUT_PATHS = [
-        "/m2v_intern/caiyunrui/codec/speech/mix_audio/code/dataset/libri2mix_train.jsonl",
-        "/mmu-audio-ssd/yaron/SpeechLLM/dataset/libri3mix_train.jsonl"
+        "./dataset/libri2mix_train.jsonl",
+        "./dataset/libri3mix_train.jsonl"
     ]
     OUTPUT_PATH = "mixed_cot_sft_train.jsonl"
     
