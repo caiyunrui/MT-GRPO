@@ -45,8 +45,8 @@ if __name__ == "__main__":
     )
 
     INPUT_PATHS = [
-        "/mmu-audio-ssd/yaron/SpeechLLM/dataset/libri2mix_test.jsonl",
-        "/mmu-audio-ssd/yaron/SpeechLLM/dataset/libri3mix_test.jsonl"
+        "./dataset/libri2mix_test.jsonl",
+        "./dataset/libri3mix_test.jsonl"
     ]
     OUTPUT_PATH = "swift_mixed_cot_grpo_test.jsonl"
     
